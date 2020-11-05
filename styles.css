@@ -1,7 +1,6 @@
 body{
-    height: 0;
-    width: 0;
-    background-color: aquamarine;
+    
+    background-color: antiquewhite;
 }
 .container-header {
     width: 100%;
@@ -18,5 +17,60 @@ body{
 .item-article {
     width: 30%;
     height: 200px;
-    background-color: aqua;   
+    background-color: azure;   
+}
+
+.form-base {
+    font-family: "Alegreya", serif;
+    width: 50%;
+    height: 200px;
+    color: #025157;
+    padding: 20px;
+}
+
+.form-base-header {
+    font-size: xx-large;
+    margin: 0;
+
+}
+.form-base-paragraph {
+    color: #343434
+}
+
+.form-container {
+    color: #67b54b;
+    display: flex;
+}
+
+.form-label {
+    margin: 10px;
+}
+
+.form-container-main {
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.form-container-input {
+    border: 1px solid #343434;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.form-container-button {
+    color: white;
+    background-color: #67b54b;
+    border: #67b54b;
+}
+
+
+footer {
+    height: 80px;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
